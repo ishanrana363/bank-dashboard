@@ -4,15 +4,15 @@ const Home = () => {
     return (
         <div className='' >
             <div className='px-8 ' >
-            <div className='flex justify-between ' >
+            <div className='flex justify-between  ' >
                 <h1 className='  text-[#343C6A] text-[18px] font-[600] mt-[106px] ' >My Cards</h1>
-                <div className='flex text-[#343C6A] text-[18px] font-[600] mt-[106px] ' >
+                <div className='flex text-[#343C6A] gap-14 text-[18px] font-[600] mt-[106px] ' >
                     <h1>See All</h1>
-                    <h1>Recent Transaction</h1>
+                    <h1 className='mr-[120px]' >Recent Transaction</h1>
                 </div>
             </div>
 
-            <div className='card grid grid-cols-3 gap-x-8 overflow-hidden ' >
+            <div className='card grid   lg:grid-cols-3 md:grid-cols-1 2xl:grid-cols-3 sm:grid-cols-1   gap-x-8 ' >
                 <div 
                 className="card-1 mt-[44px] bg-[#4C49ED]   p-6 text-[white] rounded-[20px] hover:border-[2px solid black hover:outline-none ]
                 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover:bg-indigo-500 duration-300
